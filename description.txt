@@ -1,0 +1,28 @@
+# here we have looked at various techniques of image processing used to build computer vision
+# applications
+
+
+resizing :
+
+aspect_ratio = width/height
+
+while resizing, maintaining the original aspect ratio ensures that the resized image do not look
+stretched or compressed
+
+
+while performing addition operations, the pixel value may fall out of range
+there are two methods for handling this situation:
+1. saturated operation/ trimming: 250+ 10 : 255 ( done by CV)
+2. modulo operation: (230+10)%256 : 4 (done by numpy)
+
+# we can use both cv and numpy to handle the arithmetic operation
+# which one to use depends upon situation and needs
+
+# we have looked at masking, noise reduction, binarization, edge detection and contour detection
+# using opencv functions
+
+# techniques we have studied here are used for feature extraction and engineering for machine learning
+
+
+
+
