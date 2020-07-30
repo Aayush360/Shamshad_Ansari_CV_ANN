@@ -1,0 +1,12 @@
+about feature extraction:
+
+features are measurable property of an object or event being observed.
+
+Repeatability is an important characteristic of a good feature.
+Also should be distinguishable and independent.
+
+pixel values are features and we represent it as 1D array
+
+some deep learning algorithm such as CNN, automatically extracts features and then train the model
+
+
